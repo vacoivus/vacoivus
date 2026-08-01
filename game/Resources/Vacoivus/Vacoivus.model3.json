@@ -1,0 +1,37 @@
+{
+    "Version": 3,
+    "FileReferences": {
+        "Moc": "1765276845636.moc3",
+        "Textures": [
+            "1765276845636.1024/texture_00.png"
+        ],
+        "DisplayInfo": "1765276845636.cdi3.json",
+        "Motions": {
+            "Idle": [
+                {
+                    "File": "motions/Vacoivus_m00.motion3.json"
+                }
+            ],
+            "m01": [
+                {
+                    "File": "motions/Vacoivus_m01.motion3.json",
+                    "FadeInTime": 0.5,
+                    "FadeOutTime": 0.5
+                }
+            ]
+        }
+    },
+    "Groups": [
+        {
+            "Target": "Parameter",
+            "Name": "EyeBlink",
+            "Ids": ["ParamEyeLOpen", "ParamEyeROpen"]
+        },
+        {
+            "Target": "Parameter",
+            "Name": "LipSync",
+            "Ids": ["ParamMouthOpenY"]
+        }
+    ],
+    "HitAreas": []
+}
